@@ -1,0 +1,10 @@
+#!/bin/bash
+
+for i in `seq 5`
+do
+	for j in `seq 0 10`
+	do
+		let "produit=$i*$j"
+		echo "$i * $j = $produit"
+		done
+done
